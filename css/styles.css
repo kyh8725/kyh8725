@@ -10236,6 +10236,7 @@ header.masthead h1 span:nth-child(2) {
   text-align: center;
   opacity: 0;
   color: rgba(255, 255, 255, 1);
+  background:rgba(244, 98, 58,0.9);
   font-weight: bolder;
   transition: opacity 0.25s ease;
   text-align: center;
