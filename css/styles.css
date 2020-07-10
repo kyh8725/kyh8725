@@ -10208,7 +10208,13 @@ header.masthead h1 span:nth-child(2) {
     font-size: 3.5rem;
   }
 }
-
+#portfolio{
+  background:url("../assets/img/bg-portfolio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
   max-width: 1920px;
 }
@@ -10231,9 +10237,9 @@ header.masthead h1 span:nth-child(2) {
   opacity: 0;
   color: rgba(255, 255, 255, 1);
   font-weight: bolder;
-  background: rgba(244, 98, 58,0.9);
   transition: opacity 0.25s ease;
   text-align: center;
+
     
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
