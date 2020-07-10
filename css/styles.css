@@ -9726,6 +9726,14 @@ button.bg-dark:focus {
   font-family:"CookieRunOTF-Bold";
   font-style:"italic";
 }
+#services{
+    background:url("../assets/img/bg-education.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .text-center {
   
   text-align: center !important;
@@ -10048,7 +10056,7 @@ hr.light {
   padding:8rem 0;
 }
 .btn-xl {
-  margin-top:4rem;
+  margin-top:2rem;
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
   font-weight: 700;
