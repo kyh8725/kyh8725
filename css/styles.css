@@ -430,7 +430,11 @@ h6,
   font-size: 1rem;
 }
 .project-dec {
-  font-size: 0.8rem;
+  font-size: 1vw;
+}
+.project-divider {
+  margin: 0;
+  padding: 0.5rem;
 }
 .logo {
   margin-left: 1rem;
@@ -10706,7 +10710,7 @@ header.masthead h1 span:nth-child(2) {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
+  font-size: 1vw;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -10715,7 +10719,7 @@ header.masthead h1 span:nth-child(2) {
 #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name,
 #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name,
 #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
-  font-size: 1.2rem;
+  font-size: 1vw;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption,
