@@ -10745,3 +10745,139 @@ header.masthead h1 span:nth-child(2) {
 .portfolio-link {
   margin: 1rem;
 }
+
+/** --------------------------------------------- 
+resume
+*/
+#resume-section a {
+  margin: 1rem;
+}
+.resume {
+  padding-bottom: 1rem;
+  margin: 0;
+  min-height: 100vh;
+}
+.resume__left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vw;
+  font-family: "CookieRunOTF-Bold";
+  border-bottom: 2px solid #f4623a;
+  margin: 0;
+  padding: 1rem;
+}
+.resume__left > .resume__title {
+  display: none;
+}
+.resume__left a,
+.resume-contents a,
+.resume__contacts a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.resume__name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.resume__title {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+.resume__title--job {
+  font-size: 1rem;
+}
+.skills-title,
+.education-title,
+.experience-title,
+.projects-title,
+.contact-title {
+  font-size: 1.5rem;
+  font-family: "CookieRunOTF-Bold";
+  border-bottom: 2px solid #f4623a;
+  margin: 2rem;
+  padding: 1rem;
+}
+.resume-contents {
+  margin: 1rem 2rem;
+}
+.experience-dec {
+  margin: 1rem;
+}
+.resume__contacts {
+  font-size: 1rem;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.coverletter__right {
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 768px) {
+  .resume {
+    display: flex;
+    flex: 1;
+    padding: 5rem 2rem;
+    font-size: 1rem;
+  }
+  .resume__name {
+    font-size: 3rem;
+  }
+  .resume__title--job {
+    color: #f4623a;
+  }
+  .resume__right {
+    border-left: none;
+  }
+  .resume__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0.2;
+    color: black;
+    background-color: white;
+    border-bottom-style: none;
+    align-items: flex-start;
+    border: 2px solid #f4623a;
+  }
+  .resume__left > .resume__title {
+    display: flex;
+  }
+  .resume__title--job {
+    margin-bottom: 2rem;
+  }
+  .resume__title {
+    margin-bottom: 2rem;
+  }
+  .resume__title a {
+    color: black !important;
+  }
+  .resume__right {
+    flex: 0.8;
+  }
+  .resume__name {
+    margin: 2rem 0;
+  }
+  .resume-contents,
+  .experience-dec {
+    padding-left: 2rem;
+  }
+  .resume__contact,
+  .contact-title {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .resume {
+    padding: 5rem 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .resume {
+    padding: 5rem 10rem;
+  }
+}
