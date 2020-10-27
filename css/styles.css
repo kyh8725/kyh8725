@@ -675,8 +675,8 @@ pre code {
 }
 
 .no-gutters {
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
@@ -4350,9 +4350,7 @@ input[type="button"].btn-block {
 .navbar-brand:focus {
   text-decoration: none;
 }
-#portfolio {
-  padding: rem 0;
-}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -10745,7 +10743,9 @@ header.masthead h1 span:nth-child(2) {
 .portfolio-link {
   margin: 1rem;
 }
-
+#sub-header {
+  color: #f4623a;
+}
 /** --------------------------------------------- 
 resume
 */
