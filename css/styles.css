@@ -10138,7 +10138,8 @@ button.bg-dark:focus {
   font-style: "italic";
 }
 #services {
-  background: url("../assets/img/bg-education.jpg");
+  background-color: #343a40;
+  color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10317,6 +10318,9 @@ a.text-dark:focus {
   color: #212529 !important;
 }
 
+.text-muted.mb-1 {
+  color: white !important;
+}
 .text-muted {
   color: #6c757d !important;
 }
