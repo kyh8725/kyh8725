@@ -10916,7 +10916,10 @@ resume
 .masthead-title,
 .masthead-container {
   width: 100% !important;
-  margin-bottom: 3rem;
+}
+.masthead-title{
+  
+  margin-bottom: 5rem;
 }
 
 .masthead-h1 {
@@ -10942,7 +10945,23 @@ resume
   -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
   clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
 }
+.masthead-h1:hover {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
+      0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+  }
+
+  to {
+    text-shadow: 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
+      0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966);
+  }
+}
 .masthead-h1::before,
 .masthead-h1::after {
   content: attr(data-text);
