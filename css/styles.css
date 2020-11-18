@@ -10880,6 +10880,8 @@ resume
   }
 }
 
+/* skills */
+
 .skill-img-wrap {
   display: flex;
   justify-content: center;
@@ -10904,6 +10906,7 @@ resume
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
 /* hero animation */
 
 .masthead,
@@ -10917,15 +10920,19 @@ resume
 .masthead-container {
   width: 100% !important;
 }
-.masthead-title{
-  
-  margin-bottom: 5rem;
+.masthead-title{  
+  margin-bottom:1rem;
 }
 
+@media (min-width: 992px) {
+  .masthead-title{  
+    margin-bottom: 5rem;
+  }
+}
 .masthead-h1 {
   position: relative;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: calc(20px + 5vw);
+  font-size: 5vw;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.02em;
