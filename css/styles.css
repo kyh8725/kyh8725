@@ -10920,12 +10920,12 @@ resume
 .masthead-container {
   width: 100% !important;
 }
-.masthead-title{  
-  margin-bottom:1rem;
+.masthead-title {
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 992px) {
-  .masthead-title{  
+  .masthead-title {
     margin-bottom: 5rem;
   }
 }
@@ -10960,13 +10960,16 @@ resume
 
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
+    text-shadow: 0 0 10px rgba(164, 208, 236, 0.966),
+      0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
       0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
   }
 
   to {
-    text-shadow: 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
-      0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966);
+    text-shadow: 0 0 10px rgba(164, 208, 236, 0.966),
+      0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
+      0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966),
+      0 0 10px rgba(164, 208, 236, 0.966), 0 0 10px rgba(164, 208, 236, 0.966);
   }
 }
 .masthead-h1::before,
